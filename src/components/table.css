@@ -1,0 +1,120 @@
+body {
+  background-image: linear-gradient(
+    180deg,
+    rgba(184, 195, 201, 0.253),
+    rgba(255, 255, 255, 0.801)
+  );
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 30px 30px;
+  font-size: 15px;
+  width: 95%;
+  box-shadow: 0 0 33px -10px rgba(0, 0, 0, 0.788);
+}
+
+.styled-table thead tr {
+  background-color: #4b0082;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 6px 10px;
+  height: 45px;
+}
+
+.styled-table tbody tr {
+  border-bottom: thin solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: 400;
+  color: black;
+}
+
+.filteri {
+  justify-content: center;
+  padding-left: 5%;
+  margin: 1px;
+}
+
+.filteri input {
+  margin: 1.5%;
+  margin-left: 5%;
+  outline: #4b0082;
+}
+
+.editBtn {
+  display: block;
+  padding: 2% 8%;
+  margin: 8% auto;
+  border: 2px solid #4b0082;
+  background: #4b0082;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 1s;
+}
+
+.editBtn:hover {
+  background-color: white;
+  color: #4b0082;
+}
+
+.deleteBtn {
+  display: block;
+  padding: 2% 8%;
+  margin: 8% auto;
+  border: 2px solid #ff003f;
+  background: #ff003f;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 1s;
+}
+
+.deleteBtn:hover {
+  background-color: white;
+  color: #ff003f;
+}
+
+.btns {
+  display: flex;
+}
+
+.btns button {
+  margin: 1px;
+}
+
+.input {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+.input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+.naslov {
+  margin-top: 30px;
+  width: auto;
+  color: #4b0082;
+  font-size: 34px;
+  padding: 10px;
+  text-shadow: 2px 2px #918a8ab7;
+}

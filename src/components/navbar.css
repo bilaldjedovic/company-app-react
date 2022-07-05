@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+}
+.li {
+  display: flex;
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem /* 16px */;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  transition-duration: 200ms;
+}
+
+.li:hover {
+  font-weight: 700;
+  color: #d3d1d1e0;
+}
+
+.divG {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 0 130 / var(--tw-bg-opacity));
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  display: flex;
+}

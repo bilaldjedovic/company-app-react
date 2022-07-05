@@ -1,0 +1,80 @@
+.form {
+  width: 55%;
+  height: 35%;
+  background: #e6e6e6;
+  border-radius: 15px;
+  box-shadow: 0 0 27px -10px rgba(0, 0, 0, 0.788);
+  margin: 10% auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+select {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+select:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+/*button posalji*/
+.fade {
+  display: block;
+  padding: 2% 8%;
+  margin: 8% auto;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #ff003f;
+  background: #ff003f;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: white;
+  color: #ff003f;
+}
+
+span {
+  color: #4b0082;
+}
+
+label {
+  color: #4b0082;
+}
